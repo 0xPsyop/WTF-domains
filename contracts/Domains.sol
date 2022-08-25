@@ -52,7 +52,7 @@ contract Domains is ERC721URIStorage {
         if (!valid(name)) revert InvalidName(name);
         uint _price = price(name);
 
-        require(msg.value >= _price , "Not enough Matic paid");
+        require(msg.value >= _price , "Not enough ETH paid");
         string memory _name = string(abi.encodePacked(name, ".", tld));
         string memory finalSvg = string(abi.encodePacked(svgPartOne, _name, svgPartTwo));
 
