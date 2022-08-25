@@ -21,14 +21,14 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 module.exports = {
   solidity: "0.8.4",
   networks:{
-    mumbai:{
+    rinkeby:{
       url: process.env.ALCHEMY_KEY,
       accounts: [`0x${process.env.PRIVATE_KEY}`]
     }
   },
   etherscan: {
     apiKey: {
-      polygonMumbai: process.env.POLYGONSCAN_KEY,
+      rinkeby: process.env.ETHERSCAN_KEY,
     },
   },
 };
