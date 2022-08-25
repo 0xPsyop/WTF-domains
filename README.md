@@ -3,3 +3,5 @@ This contract works as a name service similar to ENS(Ethereum name service) and 
 
 
 The deployed contract address (Rinkeby) :0xF291C3FD2b8Bda38b0e86C39bd5D870500F514d2
+
+**You can interact with the contract using Etherscan(rinkeby) as the deployed contract is verified.
