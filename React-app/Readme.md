@@ -1,1 +1,1 @@
-The react frontend for this Dapp.
+The react frontend for the WTF domains smart contract.
